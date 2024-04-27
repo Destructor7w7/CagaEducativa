@@ -1,0 +1,247 @@
+/*fondo*/
+ body{
+    
+  background-image: url('../imagen/fondo.jpg');
+  background-position-x: 0%;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* bar top */
+.navegacion {
+  overflow: hidden;
+  background-color: #333;
+  opacity: 0.95;
+  margin-top: auto;
+}
+
+.navegacion a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 13px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.navegacion a:hover {
+  background-image: url('../imagen/boni.gift.gif');
+  
+}
+.navegacion a.activo {
+
+  background-color: red;
+  color: white;
+
+}
+
+figure{
+  display: inline-block;
+  height: 450px;
+  width: 450px;
+}
+/* imagen y propiedades de ella */
+.logo{
+  align-items: center;
+}
+
+.logo:hover { 
+    opacity: 1.0;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)); 
+  }
+.luis {
+
+vertical-align: middle; 
+width: 20%;
+
+  }
+
+  .texto{
+    font-size: 40px;
+    text-align: center;
+    color:white;
+    margin-top: 2%;
+    border: solid 2px;
+    border-color: #333;
+    border-bottom: none;
+    border-radius: 30% 30% 0% 0%;
+    background-color:gray;
+    opacity: 0.70;
+    text-shadow:(0 2px 5px rgba(255, 0, 0, 0.7));
+  
+   
+  }
+  
+  .texto2{
+    font-size: 40px;
+    color:white;
+    margin-top: 0%;
+    border: solid 2px;
+    border-top: none;
+    border-bottom: none;
+    border-color: #333;
+    border-radius: 0% 0% 0% 0%;
+    background-color:gray;
+    opacity: 0.70;
+  
+   
+  }
+ 
+  .texto3{
+    font-size: 40px;
+    color:white;
+    margin-top: 0%;
+    border: solid 2px;
+    border-top: none;
+    border-color: #333;
+    border-radius: 0% 0% 0% 0%;
+    background-color:gray;
+    opacity: 0.70;
+    text-justify: auto;
+  
+   
+  }
+  .texto2:hover, .texto:hover, .texto3:hover{
+    background-image: url('../imagen/boni.gift.gif');
+    background-position-x: 0%;
+    background-position-y: 460%;
+    
+  }
+  
+ 
+
+  
+
+
+  
+.manual{
+    align-items: flex-start;
+    opacity: 1.0;
+     
+   
+  
+  }
+.manual:hover { 
+      opacity: 0.40;
+      filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)); 
+    }
+ 
+
+/* formulario */
+
+* {
+	margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+.contenedor{
+    width: 500px;
+    margin: 40px;
+}
+
+
+
+.tres{
+  padding: 50px 20px;
+  opacity: 3.0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../imagen/iniciar.gif');
+  background-position-x: 50%;
+  background-position-y: 500%;
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+  margin-bottom: 30px;
+  
+}
+.tres:hover {
+  opacity: inherit;
+}
+
+.cuatro{
+   padding: 50px 20px;
+   opacity: 1.0;
+  background-size: cover;
+  background-image: url('../imagen/regis.gif');
+  background-position-x: 50%;
+  background-position-y: 100%;
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px
+
+}
+.cuatro :hover{
+  opacity: inherit;
+}
+
+h1{
+	text-align: center;
+  padding: 10%;
+  margin-left: -5% ;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px rgba(243, 1, 1, 0.7);
+  
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+  font-size: 16px;
+  opacity: 0.1;
+}
+
+input[type='submit']{
+	
+  background-color: transparent;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+  border: none;
+  color: #fff;
+  font-size: 130%;
+}
+input[type='submit']:hover{
+  background-color: rgb(250, 1, 1);
+  
+} 
+
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+.error{
+  color: #a22;
+}
+/* pop */
+
+
+
+
+
+
+
+
+
